@@ -39,8 +39,9 @@ margin: auto;
 
 .nav-bar p {
   color: rgb(184, 184, 184);
-  font-size: 0.8em;
+  font-size: 1.1em;
   padding: 10px;
+  /*font-weight: bold;*/
 }
 
 .container h1 {
