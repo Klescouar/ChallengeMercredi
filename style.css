@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+font-family: "Quicksand", sans-serif;
+}
+
+h1, h3 {
+  font-weight: 400;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.nav-bar {
+  height: 200px;
+margin: auto;
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+.nav-bar p {
+  color: rgb(184, 184, 184);
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.container h1 {
+  color: white;
+  font-size: 5em;
+}
+
+.container h3 {
+color: white;
+font-size: 2em;
+}
+
+.BIO {
+  width: 85%;
+  height: 300px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+
+}
+
+.titre {
+  width: 100%;
+  color: rgb(184, 184, 184);
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+
+footer {
+  background-image: url(images/footer.jpg);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom:0px;
+  background-color: black;
+}
+
+
+.flexbox {
+
+  display: flex;
+  justify-content: center;
+}
+.flex {
+  height: 400px;
+  width: 85%;
+  height: 250px;
+    border-top: 1px solid rgb(102, 100, 100);
+    border-bottom: 1px solid rgb(102, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.flex img {
+  width: 93%;
+  height: 70%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right: 1px solid rgb(102, 100, 100);
+}
+
+.middle {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+align-items: center;
+border-right: 1px solid rgb(102, 100, 100);
+;
+
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.flex a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.upcoming {
+width: 85%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 900;
+  border-bottom: 1px solid rgb(102, 100, 100);
+
+}
+
+.cent {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.centr {
+display: flex;
+color:rgb(196, 196, 196) ;
+justify-content: center;
+}
+
+.date {
+width: 85%;
+display: flex;
+flex-direction: column;
+}
+
+.austin {
+width: 100%;
+height: 60px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+border-bottom: 1px solid rgb(102, 100, 100);
+ }
+
+
+
+ .lef {
+   display: flex;
+   justify-content: space-around;
+   width: 10%;
+ }
+
+ .mid {
+width: 45%;
+display: flex;
+justify-content: flex-start;
+/*font-weight: bold;*/
+ }
+
+ .rig {
+width: 25%;
+ }
+
+.contain {
+  display: flex;
+  justify-content: center;
+}
+
+ .view {
+   width: 85%;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid rgb(102, 100, 100);
+
+ }
+
+ .view a {
+   text-decoration: none;
+   font-size: 0.8em;
+   color: rgb(196, 196, 196) ;
+   padding-top: 10%;
+ }
+
+.centerr {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+width: 85%;
+border-bottom: 1px solid rgb(102, 100, 100);
+flex-wrap: wrap;
+}
+
+.about h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+color: white;
+font-size: 1.1em;
+}
+
+.lefti {
+display: flex;
+flex-direction: column;
+color: rgb(196, 196, 196) ;
+padding-right: 5%;
+flex-grow: 1;
+}
+
+.lefti p {
+  line-height : 1.5;
+}
+
+.midi {
+  display: flex;
+  flex-direction: column;
+  color: rgb(196, 196, 196) ;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  flex-grow: 1;
+  max-width: 450px;
+
+}
+
+.midi img {
+  height: 350px;
+}
+
+.righti {
+  display: flex;
+  flex-direction: column;
+  color: rgb(196, 196, 196) ;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.righti a {
+  text-decoration: none;
+  color: rgb(196, 196, 196) ;
+padding-bottom: 8px;
+}
+
+.righti p {
+  padding-bottom: 30px;
+}
+
+.cinter {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+ height: 200px;
+}
+
+.cinter p {
+  color: white;
+  padding-top: 30%;
+}
+
+.icone {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15%;
+
+}
+
+.icone i {
+  font-size: 1.3em;
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+
+
+}
